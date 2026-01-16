@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "slug": "nightmare-slasher",
+    "title": "NIGHTMARE SLASHER",
+    "genre": "SLASHER",
+    "tagline": "HUNT OR BE HUNTED",
+    "description": "супер крутая игра",
+    "features": [
+      "самя легкая графика",
+      "чем ты занимаешься",
+      "сумашедший генератор уровней",
+      "позови своих друзей (игра для четверых но так как с тобой никто дружить не хочет хватит и одного)",
+      "Крутейший саунд"
+    ],
+    "specs": {
+      "Platform": "PC / CONSOLE",
+      "Engine": "CUSTOM PS2",
+      "Players": "1-8",
+      "Release": "2024"
+    },
+    "logoModel": {
+      "path": "models/nightmare-slasher/logo.glb",
+      "fallbackType": "skull"
+    },
+    "models": [
+      { "name": "KILLER", "path": "models/fear-factory/Untitled.glb", "fallbackType": "skull" },
+      { "name": "WEAPON", "path": "models/nightmare-slasher/weapon.glb", "fallbackType": "cube" },
+      { "name": "VICTIM", "path": "models/nightmare-slasher/victim.glb", "fallbackType": "torus" }
+    ],
+    "screenshots": [
+      "images/screenshots/1.png",
+      "images/screenshots/2.png",
+      "images/screenshots/3.png"
+    ]
+  }
+
+]
