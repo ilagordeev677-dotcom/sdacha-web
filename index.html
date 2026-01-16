@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DENEN STUDIO | Horror & Slasher Games</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <!-- CRT Scanlines Overlay -->
+    <div class="scanlines"></div>
+    
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">DENEN</span>
+                <span class="logo-bracket">]</span>
+                <span class="logo-subtitle">STUDIO</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link active">
+                    <span class="nav-icon">></span> GAMES
+                </a>
+                <a href="about.html" class="nav-link">
+                    <span class="nav-icon">></span> ABOUT
+                </a>
+            </nav>
+            <div class="header-status">
+                <span class="status-dot"></span>
+                <span class="status-text">ONLINE</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-badge">[ PS2 AESTHETIC ]</div>
+                <h1 class="hero-title">
+                    <span class="glitch" data-text="HORROR">HORROR</span>
+                    <span class="hero-amp">&</span>
+                    <span class="glitch" data-text="SLASHER">SLASHER</span>
+                </h1>
+                <p class="hero-subtitle">GAMES THAT HAUNT YOUR DREAMS</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-value">3</span>
+                        <span class="stat-label">PROJECTS</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">PS2</span>
+                        <span class="stat-label">STYLE</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">FEAR</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Games Showcase -->
+        <section class="games-section">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-line"></span>
+                    OUR GAMES
+                    <span class="title-line"></span>
+                </h2>
+                <p class="section-subtitle">// Click on a game to explore</p>
+            </div>
+            
+            <div class="games-grid" id="games-grid">
+                <!-- Games will be loaded here dynamically -->
+            </div>
+        </section>
+
+        <!-- Terminal Section -->
+        <section class="terminal-section">
+            <div class="terminal">
+                <div class="terminal-header">
+                    <span class="terminal-dot red"></span>
+                    <span class="terminal-dot yellow"></span>
+                    <span class="terminal-dot green"></span>
+                    <span class="terminal-title">system.log</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line"><span class="prompt">$</span> initializing denen_studio...</p>
+                    <p class="terminal-line"><span class="prompt">$</span> loading horror_modules...</p>
+                    <p class="terminal-line"><span class="prompt">$</span> ps2_aesthetic: <span class="success">ENABLED</span></p>
+                    <p class="terminal-line"><span class="prompt">$</span> fear_level: <span class="warning">MAXIMUM</span></p>
+                    <p class="terminal-line typing"><span class="prompt">$</span> ready to terrify_<span class="cursor">|</span></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-logo">[DENEN] STUDIO</span>
+                <span class="footer-year">© 2026</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-text">CRAFTED WITH FEAR</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/DRACOLoader.js"></script>
+    <script src="js/model-loader.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
